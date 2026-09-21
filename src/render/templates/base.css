@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: {{BRAND_COLOR}};
+  --accent: {{BRAND_ACCENT}};
+  --fg: #FFFFFF;
+  --muted: rgba(255,255,255,.60);
+}
+
+html, body {
+  width: 1080px;
+  height: 1350px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Inter', 'Noto Sans', 'DejaVu Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.canvas {
+  position: relative;
+  width: 1080px;
+  height: 1350px;
+  padding: 96px 88px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* yumusak arka plan isigi */
+.canvas::after {
+  content: '';
+  position: absolute;
+  width: 900px; height: 900px;
+  right: -320px; top: -300px;
+  background: radial-gradient(circle, var(--accent) 0%, transparent 62%);
+  opacity: .16;
+  pointer-events: none;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  align-self: flex-start;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.badge::before {
+  content: '';
+  width: 40px; height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+/* padding-top, blogu asagi dogru dengeler: alttaki bosluk
+   ustteki bosluktan kucuk kalir, kompozisyon "oturmus" gorunur */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 44px;
+  padding-top: 56px;
+  z-index: 1;
+}
+
+.headline { font-size: 84px; font-weight: 800; line-height: 1.08; letter-spacing: -.02em; overflow-wrap: break-word; }
+.body     { font-size: 46px; font-weight: 400; line-height: 1.46; color: rgba(255,255,255,.86); max-width: 880px; }
+
+.footer {
+  display: flex; align-items: center; justify-content: space-between;
+  border-top: 2px solid rgba(255,255,255,.14);
+  padding-top: 34px;
+  font-size: 26px;
+  color: var(--muted);
+  z-index: 1;
+}
+.footer .brand { font-weight: 600; color: var(--fg); }

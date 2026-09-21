@@ -1,0 +1,4 @@
+.case-title { font-size: 72px; }
+.case-box { border-left: 6px solid var(--accent); padding: 8px 0 8px 40px; }
+.case-label { font-size: 24px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; }
+.case-body { font-size: 46px; }

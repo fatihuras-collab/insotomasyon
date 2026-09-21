@@ -1,0 +1,17 @@
+[
+  { "key": "fatura-okuma",      "title": "Faturalari elle girmeyi birakmak",             "angle": "Gelen faturayi okuyup tabloya yazan bir akis, ayda saatlerce is goturur.", "templates": ["tip","case","stat"] },
+  { "key": "stok-takibi",       "title": "Stok takibini otomatiklestirmek",              "angle": "Gunluk tuketim girisi + otomatik kritik seviye uyarisi.",                  "templates": ["case","tip"] },
+  { "key": "whatsapp-siparis",  "title": "WhatsApp'tan gelen siparisleri sisteme almak",  "angle": "Mesaji okuyup siparis kaydina ceviren akis.",                             "templates": ["case","tip","cta"] },
+  { "key": "teklif-hazirlama",  "title": "Teklif hazirlama suresini kisaltmak",           "angle": "Sablon + musteri verisi = 2 dakikada teklif.",                            "templates": ["case","stat","cta"] },
+  { "key": "randevu-hatirlatma","title": "Randevu hatirlatmalarini otomatiklestirmek",    "angle": "No-show oranini dusuren basit bir hatirlatma akisi.",                     "templates": ["tip","stat"] },
+  { "key": "rapor-ozeti",       "title": "Haftalik raporu kendisi yazan sistem",          "angle": "Veriyi cekip ozet metni ureten ve maille yollayan akis.",                  "templates": ["tip","case"] },
+  { "key": "musteri-sorulari",  "title": "Tekrar eden musteri sorulari",                  "angle": "Sorularin %70'i ayni; bunlari karsilayan bir asistan.",                    "templates": ["stat","tip","cta"] },
+  { "key": "veri-temizligi",    "title": "Dagitik Excel'leri tek yerde toplamak",         "angle": "Once veri duzeni, sonra otomasyon. Sirasi onemli.",                        "templates": ["quote","tip"] },
+  { "key": "nereden-baslamali", "title": "Otomasyona nereden baslamali",                  "angle": "En sik tekrar eden ve en cok zaman yiyen isten baslanir.",                 "templates": ["quote","tip","cta"] },
+  { "key": "insan-yerine-degil","title": "Otomasyon insanin yerine gecmez",               "angle": "Tekrar eden isi alir, karar vermeyi insana birakir.",                      "templates": ["quote"] },
+  { "key": "kucuk-isletme",     "title": "Kucuk isletmeler icin yapay zeka",              "angle": "Buyuk butce gerekmiyor; dogru tek akis bile fark yaratiyor.",              "templates": ["quote","stat","cta"] },
+  { "key": "hata-maliyeti",     "title": "Elle veri girisinin hata maliyeti",             "angle": "Kucuk hatalar birikerek buyuk kayiplara donusuyor.",                       "templates": ["stat","quote"] },
+  { "key": "entegrasyon",       "title": "Kullandigin araclari birbirine baglamak",       "angle": "Yeni yazilim almak yerine mevcutlari konusturmak.",                        "templates": ["tip","case"] },
+  { "key": "zaman-kazanci",     "title": "Kazanilan zamanla ne yapilir",                  "angle": "Kazanilan saatler musteriye ve buyumeye gider.",                          "templates": ["quote","cta"] },
+  { "key": "ilk-gorusme",       "title": "Sureclerini birlikte cikaralim",                "angle": "Ucretsiz on gorusme: hangi isin otomatiklesebilecegini birlikte gorelim.", "templates": ["cta"] }
+]
