@@ -26,6 +26,7 @@ export const config = {
     url: process.env.SUPABASE_URL || '',
     key: process.env.SUPABASE_SERVICE_KEY || '',
     bucket: process.env.SUPABASE_BUCKET || 'instagram',
+    schema: process.env.SUPABASE_SCHEMA || 'public',
   },
 
   caption: {

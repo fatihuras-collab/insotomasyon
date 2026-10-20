@@ -3,6 +3,7 @@ import { config } from './config.js';
 
 export const sb = createClient(config.supabase.url, config.supabase.key, {
   auth: { persistSession: false },
+  db: { schema: config.supabase.schema },
 });
 
 const unwrap = ({ data, error }) => {
